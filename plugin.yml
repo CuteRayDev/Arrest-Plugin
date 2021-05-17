@@ -1,0 +1,13 @@
+main: dev.cuteray.arrest.Main
+name: ArrestPlugin
+prefix: [Arrest]
+version: 1.0
+author: CuteRay
+description: Arrest a player... like a prison guard!
+commands:
+  arrest:
+    description: A command to control the arrest plugin
+    usage: /arrest
+    aliases: ar
+    permission: arrest.command
+    permission-message: You don't have the permission.
